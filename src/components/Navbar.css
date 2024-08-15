@@ -1,0 +1,82 @@
+/* Navbar.css */
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    gap: 2rem; /* Adjusted for responsiveness */
+    width: 100%; /* Set to full width */
+    height: 4rem; /* Adjusted height */
+    position: relative; /* Removed absolute positioning */
+    justify-content: space-between; /* Distributes space evenly */
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+  }
+  
+  .logo-icon {
+    width: 2rem; /* Responsive size */
+    height: 2rem;
+    background-color: #000000; /* Placeholder for the logo */
+  }
+  
+  .logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem; /* Adjusted for responsiveness */
+    color: #000000;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem; /* Adjusted for responsiveness */
+  }
+  
+  .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem; /* Adjusted for responsiveness */
+    color: #242323;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #000000;
+  }
+  
+  /* Sign Up Button */
+  .sign-up-container {
+    width: auto;
+    height: auto;
+  }
+  
+  .sign-up-button {
+    padding: 0.5rem 1rem; /* Adjusted padding for responsiveness */
+    background: #000000;
+    border-radius: 0.5rem;
+    color: #FEFEFE;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem; /* Adjusted for responsiveness */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #333333;
+  }
+  
