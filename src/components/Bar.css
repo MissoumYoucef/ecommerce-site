@@ -1,0 +1,28 @@
+/* bar Styles */
+.bar {
+    position: relative; /* Position relative to allow for better layout control */
+    width: 100%; /* Set to full width */
+    background-color: #EBD96B; /* Background color */
+    padding: 2rem 0; /* Padding for spacing */
+}
+
+/* Container for bar content */
+.bar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; /* Distribute space around items */
+    max-width: 90%; /* Limit the width to keep it centered */
+    margin: 0 auto; /* Center the content */
+    gap: 2rem; /* Space between the brands */
+}
+
+/* Individual brand logos */
+.brand {
+    width: auto;
+    height: 70px; /* Set height to a fixed value for consistency */
+    background-size: contain; /* Ensure the logo fits within the box */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-position: center; /* Center the logo */
+    flex-grow: 0;
+}

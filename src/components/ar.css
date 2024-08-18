@@ -1,0 +1,161 @@
+/* Group 69 */
+.container {
+    position: absolute;
+    width: 1720px;
+    height: 852px;
+    left: 100px;
+    top: 164px;
+  }
+  
+  /* Rectangle 2 */
+  .rectangle-2 {
+    position: absolute;
+    width: 1720px;
+    height: 852px;
+    left: 0;
+    top: 0;
+    background: #f4f6f5;
+    border-radius: 59px;
+  }
+  
+  /* Rectangle 6 */
+  .rectangle-6 {
+    position: absolute;
+    width: 495.79px;
+    height: 117.55px;
+    right: 1230.69px;
+    top: 482.86px;
+    background: #ebd96b;
+    transform: rotate(-2deg);
+  }
+  
+  /* Rectangle 3 */
+  .rectangle-3 {
+    position: absolute;
+    width: 464.74px;
+    height: 112.14px;
+    right: 1273.26px;
+    top: 248.22px;
+    background: #ffffff;
+    transform: rotate(-2deg);
+  }
+  
+  /* LET’S EXPLORE UNIQUE CLOTHES. */
+  .text-container {
+    position: absolute;
+    width: 474px;
+    height: 473px;
+    right: 1227px;
+    top: 241px;
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins font is available */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    color: #000000;
+  }
+  
+  .unique {
+    color: #ebd96b; /* Apply yellow color to UNIQUE */
+  }
+  
+  /* Live for Influential and Innovative fashion! */
+  .live-text {
+    position: absolute;
+    width: 606px;
+    height: 58px;
+    left: 219px;
+    top: 757px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    color: #191818;
+  }
+  
+  /* incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1 */
+  .girl-image {
+    position: absolute;
+    width: 871px;
+    height: 784px;
+    left: 868px;
+    top: 232px;
+  }
+  
+  /* Frame 4 */
+  .shop-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+    position: absolute;
+    width: 221px;
+    height: 82px;
+    left: 225px;
+    top: 844px;
+    background: #000000;
+    border-radius: 10px;
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  /* Shop Now */
+  .shop-button:hover {
+    background-color: #333; /* Darken button on hover */
+  }
+  
+  .shop-button span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+  }
+  
+  /* Star 9 */
+  .star {
+    background: #e7e6e6;
+    width: 58px;
+    height: 56.02px;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    ); /* Create star shape using clip-path */
+  }
+  
+  .star-9 {
+    position: absolute;
+    left: 1524px;
+    top: 268px;
+  }
+  
+  .star-10 {
+    position: absolute;
+    left: 891px;
+    top: 926px;
+  }
+  
+  .star-11 {
+    position: absolute;
+    left: 848px;
+    top: 232px;
+  }
+  
+  .star-12 {
+    position: absolute;
+    left: 1679px;
+    top: 868px;
+  }

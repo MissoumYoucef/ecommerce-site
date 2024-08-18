@@ -1,0 +1,77 @@
+/* Pub.css */
+
+.youngs-favourite {
+    width: 80%; /* Adjust width as needed */
+    margin: 50px auto; /* Center the component */
+  }
+  
+  .title-container {
+    position: relative; /* To position the highlight */
+    text-align: center;
+    margin-bottom: 30px; 
+  }
+  
+  .title {
+    font-family: 'Poppins'; 
+    font-weight: 900;
+    font-size: 2.5em; /* Adjust font size */
+    color: #000000; 
+  }
+  
+  .highlight {
+    position: absolute;
+    bottom: -10px; /* Adjust position */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px; /* Adjust width */
+    height: 10px; /* Adjust height */
+    background-color: #EBD96B; 
+  }
+  
+  .image-grid {
+    display: flex;
+    gap: 30px; /* Adjust gap between images */
+  }
+  
+  .image-card {
+    width: calc(50% - 15px); /* Adjust width to account for gap */
+    border-radius: 10px; /* Adjust border radius */
+    overflow: hidden; /* Hide overflowing image content */
+  }
+  
+  .image-card img {
+    width: 100%; 
+    height: auto; 
+    display: block; /* Prevent image from creating extra space below */
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Adjust padding */
+    background-color: white; 
+  }
+  
+  .card-info h3 {
+    font-family: 'Poppins';
+    font-weight: 500; 
+    font-size: 1.2em; /* Adjust font size */
+    margin-bottom: 5px;
+  }
+  
+  .card-info p {
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    color: #7F7F7F; 
+  }
+  .arrow {
+    display: inline-block;
+    width: 15px; /* Adjust size */
+    height: 15px; /* Adjust size */
+    border-top: 2px solid #797979;
+    border-right: 2px solid #797979;
+    transform: rotate(45deg); 
+    margin-left: 10px;
+  }

@@ -1,0 +1,60 @@
+/* Banner.css */
+.banner {
+    display: flex; /* Arrange left and right sections side-by-side */
+    background-color: yellow; /* Your background color */
+  }
+  
+  .banner-left {
+    position: relative; /* To position stars within the image container */
+    width: 50%; /* Adjust as needed */
+  }
+  
+  .banner-left img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  .star {
+    position: absolute;
+    width: 30px; /* Adjust size */
+    height: 30px; /* Adjust size */
+    background-color: rgba(255, 255, 255, 0.5); 
+    transform: matrix(0.89, -0.45, 0.45, 0.89, 0, 0);
+  }
+  
+  /* Position each star individually */
+  .star-1 {
+    top: 20%;
+    left: 10%; 
+  }
+  
+  
+  .banner-right {
+    width: 50%; 
+    display: flex;
+    justify-content: center; /* Center the sale info */
+    align-items: center;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+  }
+  
+  .sale-info {
+    text-align: center; 
+  }
+  
+  .payday-sale {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 3em; /* Adjust size */
+    color: #000000;
+  }
+  
+  /* ...styles for other elements in .sale-info... */
+  
+  .shop-now {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
